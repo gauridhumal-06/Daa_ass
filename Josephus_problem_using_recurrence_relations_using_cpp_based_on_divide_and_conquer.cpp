@@ -1,5 +1,4 @@
 #include <iostream>
-
 int josephus(int n, int k) {
     if (n == 1) {
         return 0;  // Base case: only one person remains
